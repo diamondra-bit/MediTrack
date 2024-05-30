@@ -1,0 +1,86 @@
+.login{
+    display: grid;
+    place-content: center;
+   
+}.card-login{
+    width: 850px;
+    border: 4px solid var(--text);
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px #9ccec9 ;
+    background-color: white;
+    margin: 0 auto;
+    height: 460px;
+    display: flex;
+
+}
+.left-login{
+    background-color:#9ccec9;
+    height: 460px;
+    width: 35%;
+}
+.right-login{
+    height: 460px;
+    width: 65%; 
+}
+.card-login h3{
+   text-align: center;
+   margin-top: 1em;
+    font-weight: 700;
+    color: var(--sidebar);
+}
+.card-login input[type="text"],.card-login input[type="password"]{
+    width: 100%;
+   border-bottom: 2px solid #dbdbdb;
+
+}
+.card-login input{
+   outline: none;
+}
+.card-login label{
+    width: 80%;
+}
+.input{
+    margin: 2.3em auto;
+    width: 80%;
+}
+.input-button{
+    margin: 2em auto 1em;
+    width: 80%;
+}
+.login-image{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.btn-login{
+    width: 100%;
+    background-color: #9ccec9;
+    color: white;
+    font-size: 1.2em ;
+    margin: .5em auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.create-count{
+    text-decoration: none;
+    color: var(--sidebar);
+    /* font-weight:700; */
+    /* font-size:1.2em; */
+}
+.link{
+    margin-top: -6em;
+    width: fit-content;
+    margin: 0 auto;
+}
+.error-login{
+    color: red;
+    margin-left: 3.3em;
+    margin-bottom: -2em;
+}
+.error1-login{
+    color: red;
+    text-align: center;
+}
+
+
+

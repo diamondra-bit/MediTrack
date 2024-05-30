@@ -1,0 +1,9 @@
+.notif-main{
+    background-color: var(--text);
+    border-radius: 20px;
+    margin: 2.5em auto 0;
+    height: 66vh;
+}
+.notif-main .table td,.notif-main .table th{
+    padding: 1em;
+}

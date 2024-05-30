@@ -1,0 +1,48 @@
+/* Carrousel.css */
+
+.carrousel {
+    display: flex;
+    justify-content: space-around;
+  }
+  .slide-content{
+    width: 75%;
+  }
+  .slide-content h3{
+    color: var(--sidebar);
+    text-align: center;
+    padding-top: .5em;
+  }
+  .slide-content .h4{
+    color: var(--sidebar);
+   font-size: 1.2em;
+   font-weight: 600;
+  }
+  .slide-content button{
+    float:right;
+    margin-top: .3em;
+  }
+  .left{
+    display: grid;
+    place-items:center;
+  }
+  
+ .carrousel-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: sticky;
+    
+  }
+
+  /* .left{
+    height: 300px;
+    position:absolute;
+    left:0;
+  }
+  .right{
+    width: 10%;
+    height: 300px;
+    position:absolute;
+    right:0;
+  } */
+

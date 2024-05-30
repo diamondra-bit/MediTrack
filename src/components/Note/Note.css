@@ -1,0 +1,21 @@
+.note{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 25px; 
+    color: var(--gray);
+    margin: 1.5em auto;
+    width: 95%;
+}
+
+.inline{
+    display: flex;
+}
+.note img{
+    margin-right: .5em;
+    margin-top: -.1em;
+}
+.note span{
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--sidebar);
+}

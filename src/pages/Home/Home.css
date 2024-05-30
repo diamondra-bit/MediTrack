@@ -1,0 +1,98 @@
+
+.home{
+    width: 95%;
+    margin: 1em auto;
+}
+
+
+/* Home main */
+.home-main{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+.home-main-1{
+    width: 62%;
+}
+.home-main-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.home-main-rupture{
+    width: 48%;
+    height: 200px;
+    background-color: var(--text);
+    border-radius: 20px;
+    padding: 1em;
+}  
+.home-main-expired{
+    width: 48%;
+    height: 200px;
+    background-color: var(--sidebar);
+    border-radius: 20px;
+    padding: 1em;
+}  
+
+.home-main-rupture h2,.home-main-history h2,.calendar-h2{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--sidebar);
+    overflow: hidden;
+}
+.home-main-expired h2{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text);
+    overflow: hidden;
+}
+
+.home-main-rupture p{
+    width: 98%;
+    margin: 1em 0;
+    color: var(--gray);
+}
+.home-main-expired p{
+    width: 98%;
+    margin: 1em 0;
+    color: var(--text);
+}
+.home-main-rupture a{
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 700;  
+}
+.home-main-expired a{
+    color: var(--sidebar);
+    text-decoration: none;
+    font-weight: 700;  
+}
+.home-main-rupture .home-btn{
+    margin-top: 1.2em;
+    background-color: var(--sidebar);
+    width: fit-content;
+    padding: .5em 1em;
+    border-radius: 10px;
+}
+.home-main-expired .home-btn{
+    margin-top: 1.2em;
+    background-color: var(--text);
+    width: fit-content;
+    padding: .5em 1em;
+    border-radius: 10px;
+}
+
+.home-main-history{
+    width: 100%;
+    background-color: var(--text);
+    height: 230px;
+    border-radius: 20px;
+    margin-top: 2em;
+    overflow: auto;
+    padding: 1em;
+}
+
+.img{
+    width: 100%;
+}

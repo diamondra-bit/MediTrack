@@ -1,0 +1,81 @@
+.modal-home,.overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: aqua;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.6);
+    display: grid;
+    place-items: center;
+}
+.modal-content{
+    width: 600px;
+    height: fit-content;
+    background: white;
+    border-radius: 20px;
+}
+/* Modal pdf */
+.pdf{
+    width: 450px;
+    text-align: center;
+    padding-bottom: 20px
+}
+  /* Modal carroussel */
+  .modal-content-carroussel{
+    width: 550px;
+    height: 200px;
+    position: relative;
+    z-index: 9;
+}
+
+/* Form */
+.modal-content input,.modal-content select{
+background-color: var(--soft);
+    width: 100%;
+    padding: .2em;
+    outline: none;
+}
+
+
+.div-form{
+    width:80%;
+    margin: 1em auto;
+}
+.div-form label{
+    width: 100%;
+}
+
+.btn-modal{
+    background-color: var(--sidebar);
+    color: var(--text);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em
+}
+.btn-form{
+   display: flex;
+   justify-content: end;
+}
+
+.modal-content h3{
+ color: var(--sidebar);
+ font-weight: 700;
+ padding: 1em 1em 0.5em;
+ width: 90%;
+ margin: 0 auto;   
+}
+.error-modal{
+    margin-left: 4em;
+    color: red;
+}
+
+/* Modal Pdf */
